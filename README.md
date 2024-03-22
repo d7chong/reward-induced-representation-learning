@@ -144,25 +144,6 @@ python train_baseline.py -b 'reward_prediction_finetune'
 
 ---
 
-## TODO
-- automate the entire process
-    - load weights for image_reconstruction and reward_prediction, based on number of distractors
-    - create gifs with one commmand with pretrained weights
-- visualize loss curves
-- showing results
-    - **train both reward predictor and image reconstruction with 100 trajectories, 100 epochs**
-    - show loss curves for every model
-        - reward prediction (num_distractors = 0, 1, 2) --> total = 6
-            - horizontal rewards
-            - vertical rewards
-            - all rewards
-        - image reconstruction (num_distractors = 0, 1, 2) --> total = 3
-        - decoder (num_distractors = 0, 1, 2) --> total = 3
-    - show gifs for every baseline (num_distractors = 0, 1, 2) --> total = 21
-    - train all models with max_seq_len = 36, and 5M timesteps
-
----
-
 <details>
     <summary><b>❗Error in HorPosReward and VerPosReward in reward.py❗</b></summary>
 
