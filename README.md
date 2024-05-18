@@ -12,8 +12,6 @@ Implementation of
 |:---:|:---:|:---:|
 | **◯** | **▢** | **◁** |
 
-(This is the implementation project for the [Cognitive Learning for Vision and Robotics Lab](https://www.clvrai.com/) at [KAIST AI](https://gsai.kaist.ac.kr/))
-
 
 [[Paper](https://drive.google.com/file/d/1RoQ-QUNmeL-vGFKBX95IF-D_LiXcO93z/view)] [[Starter code](https://github.com/kpertsch/clvr_impl_starter)]
 
